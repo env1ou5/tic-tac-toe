@@ -137,6 +137,7 @@ footer {
     width: 100%;
     opacity: 1;
     height: 2.5rem;
+    pointer-events: none;
   }
 
 .input:hover {
