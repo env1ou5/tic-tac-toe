@@ -95,6 +95,7 @@ p {
     justify-content: center;
     font-size: xx-large;
     font-weight: bold;
+    float: none;
     user-select: none;
     transition: width 0.5s, height 0.5s;
     box-shadow: 5px 5px 2px 2px rgb(33, 33, 33);
@@ -133,11 +134,10 @@ footer {
     font-size: 1em;
     border-radius: 10px;
     position: absolute;
+    pointer-events: none;
     bottom: 0;
     width: 100%;
-    opacity: 1;
     height: 2.5rem;
-    pointer-events: none;
   }
 
 .input:hover {
@@ -147,7 +147,7 @@ footer {
 }
 
 body {
-    background-image: radial-gradient(circle, rgb(41, 41, 41), rgb(24, 24, 24),rgb(15, 15, 15));
+    background-color: rgb(37, 37, 37);
     display: flex;
     justify-content: center;
     align-items: center;
